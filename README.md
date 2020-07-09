@@ -27,8 +27,8 @@ POSCAR files
 directories of calculated structures appended
 
 #### hint
-1.All files in cage and its sub-directories are for the purpose of demonstration.
-2.If want to for a cage,for example cage is 937, first do as below,
+1. All files in cage and its sub-directories are for the purpose of demonstration.
+2. If want to for a cage,for example cage is 937, first do as below,
 
 ```shell
 mkdir 937
