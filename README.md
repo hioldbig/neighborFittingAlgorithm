@@ -6,7 +6,7 @@ An Energy prediction model of heterofullerenes by the neighbour atoms
 ------------------------------------------------------
 
 #### 1. caled
-directories of calculated structures,of which the sub-directories are listed as below,
+Directories of calculated structures,of which the sub-directories are listed as below,
 
 ```
 CONTCAR  OSZICAR  OUTCAR  POSCAR  slurm.out
@@ -14,7 +14,7 @@ CONTCAR  OSZICAR  OUTCAR  POSCAR  slurm.out
 
 
 #### 2. data
-calculated data listed as below,
+Calculated data listed as below,
 
 ```
 b.mat  branches.mat  enList  error  fitting  mini  myList.mat  top100  vectors.mat
@@ -24,7 +24,7 @@ b.mat  branches.mat  enList  error  fitting  mini  myList.mat  top100  vectors.m
 POSCAR files
 
 #### 4. tasks
-directories of calculated structures appended
+Directories of calculated structures appended
 
 #### hint
 1. All files in cage and its sub-directories are for the purpose of demonstration.
@@ -36,7 +36,7 @@ cd 937
 mkdir caled data posFiles tasks
 ```
 
-then initialize the cage
+Then initialize the cage
 ```
 ./initFitting.sh 937
 ```
