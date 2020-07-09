@@ -25,3 +25,6 @@ POSCAR files
 
 #### 4. tasks
 directories of calculated structures appended
+
+#### hint
+All files in cage and its sub-directories are for the purpose of demonstration.
