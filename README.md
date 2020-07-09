@@ -30,11 +30,25 @@ directories of calculated structures appended
 1.All files in cage and its sub-directories are for the purpose of demonstration.
 2.If want to for a cage,for example cage is 937, first do as below,
 
-```
+```shell
 mkdir 937
 cd 937
 mkdir caled data posFiles tasks
 ```
 
+then initialize the cage
+```
+./initFitting.sh 937
+```
+
+After cage initializing, do the iterations, for example from 1 to 5, do as below,
+```
+./loopFitting.sh 937 1 5
+```
+
+Do the last fitting
+```
+./finaFitting.sh 937 1 5
+```
 
 
