@@ -2,11 +2,11 @@
 
 An Energy prediction model of heterofullerenes by the neighbour atoms
 
-### Some directories
+### Directories in cage 
 ------------------------------------------------------
 
 #### 1. caled
-directories of calculated structures listed as below,
+directories of calculated structures,of which the sub-directories are listed as below,
 
 ```
 CONTCAR  OSZICAR  OUTCAR  POSCAR  slurm.out
