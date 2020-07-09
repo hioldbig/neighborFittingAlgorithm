@@ -1,0 +1,4 @@
+for files in `find $1/posFiles -name "*__*"`; 
+ do 
+   mv $files  $(echo ${files}|sed 's/__/_/g');  
+ done
